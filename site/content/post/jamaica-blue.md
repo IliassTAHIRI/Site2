@@ -23,3 +23,45 @@ Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classificatio
 Jamaican Blue Mountain Coffee is a globally protected certification mark, meaning only coffee certified by the Coffee Industry Board of Jamaica can be labeled as such. It comes from a recognized growing region in the Blue Mountain region of Jamaica, and its cultivation is monitored by the Coffee Industry Board of Jamaica.
 
 The Blue Mountains are generally located between Kingston to the south and Port Antonio to the north. Rising 7,402 ft, they are some of the highest mountains in the Caribbean. The climate of the region is cool and misty with high rainfall. The soil is rich, with excellent drainage. This combination of climate and soil is considered ideal for coffee.
+
+
+
+```python
+import matplotlib.pyplot as plt
+from matplotlib import rc
+import numpy as np
+from ipywidgets.widgets import interact, Layout
+
+rc('font', **{'family': 'serif', 'serif': ['Computer Modern'], 'size': 16})
+rc('text', usetex=True)
+```
+
+
+```python
+Emax = 5
+xmin = -2
+Lmax = 5
+def psi(n, x, L):
+    return np.sqrt(2/L) * np.sin(n * np.pi * x / L)
+def plt_psi(L):
+    x = np.linspace(0,L,100)
+    nmax = int(np.sqrt(Emax)*L)
+    for n in range(1,nmax+1):
+        plt.plot(x, psi(n,x,L)+(n/L)**2, c='r', lw=2, alpha=0.7)
+        plt.axhline((n/L)**2, 0, L, c='k')
+    plt.ylim(0,6)
+    plt.xlim(xmin,Lmax+1)
+    plt.axvspan(L, Lmax+1, fc='gray')
+    plt.axvspan(-Lmax, 0, fc='gray')
+    plt.xlabel(r'$x$')
+    plt.ylabel(r'$E \;/(h^2/8m)$')
+    plt.show()
+```
+
+
+```python
+interact(plt_psi, L=(1, Lmax, 0.1))
+```
+
+
+![png](a_files/a_2_0.png)
