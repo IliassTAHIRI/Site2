@@ -62,6 +62,3 @@ def plt_psi(L):
 ```python
 interact(plt_psi, L=(1, Lmax, 0.1))
 ```
-
-
-![png](a_files/a_2_0.png)
