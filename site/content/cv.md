@@ -7,13 +7,6 @@ heading: What we offer
 description: >-
   My CV
 
-main:
-  heading: Edu
-  description: >
-  Text
-  heading: Experience
-  description: >
-  textexte
 
 
 
@@ -23,6 +16,6 @@ testimonials:
     quote: >-
       Text
 
-~#full_image: /img/products/products-full-width.jpg
+full_image: /img/products/products-full-width.jpg
 
 ---
