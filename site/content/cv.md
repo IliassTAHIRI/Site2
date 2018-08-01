@@ -10,7 +10,7 @@ description: >-
 main:
   heading: Education
   description: >
-
+  items:
     - Ecole Mohammadia d'Ingénieurs - Master - 2011 to 2014
     - Ecole des Ponts Paristech     - Master - 2015 to 2016
     - Ecole des Ponts Paristech     - PhD    - 2018 to current
