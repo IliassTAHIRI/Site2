@@ -30,7 +30,7 @@
 	--spacing-large: 2rem;
 	--spacing-extra-large: 4rem;
 	--spacing-extra-extra-large: 8rem;
-	--spacing-extra-extra-extra-large: 16rem;
+	--spacing-extra-extra-extra-large: 30rem; /* 16rem */
 
 	/* Miscelaneous */
 	--border-radius: .25rem;
