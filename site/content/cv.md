@@ -7,6 +7,14 @@ heading: What we offer
 description: >-
   My CV
 
+main:
+  heading: Education
+
+  heading : Experience
+
+  heading : Publications
+
+  heading : Interests
 
 
 
