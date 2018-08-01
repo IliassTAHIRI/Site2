@@ -31,10 +31,7 @@ rc('font', **{'family': 'serif', 'serif': ['Computer Modern'], 'size': 16})
 rc('text', usetex=True)
 ```
 
-</div>
 
-
-<div class="input_area" markdown="1">
 
 ```python
 Emax = 5
@@ -57,13 +54,6 @@ def plt_psi(L):
     plt.show()
 ```
 
-</div>
-
-
-<div class="input_area" markdown="1">
-
 ```python
 interact(plt_psi, L=(1, Lmax, 0.1))
 ```
-
-</div>
