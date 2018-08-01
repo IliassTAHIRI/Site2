@@ -9,7 +9,7 @@ export default class PostPreview extends React.Component {
       <h1 className="f2 lh-title b mt0 mb3">{ entry.getIn(["data", "title"])}</h1>
       <div className="flex justify-between grey-3">
         <div style={{
-          width: "80px",
+          width: "200px", //80px
           height: "80px"
         }}></div>
         <p className="mt0">{ format(entry.getIn(["data", "date"]), "ddd, MMM D, YYYY") }</p>
