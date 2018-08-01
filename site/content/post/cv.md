@@ -5,16 +5,16 @@ description: My Curriculum vitae
 image: /img/blog/flavor_wheel.jpg
 ---
 
-#Curriculum vitae :
+# Curriculum vitae :
 
-# Education
+## Education
 
-## Ecole Mohammadia d'Ingénieurs - Master - 2011 to 2014
-## Ecolde des Ponts Paristech    - Master - 2015 to 2016
-## Ecole des Ponts Paristech     - PhD    - 2018 to current
+ Ecole Mohammadia d'Ingénieurs - Master - 2011 to 2014
+ Ecolde des Ponts Paristech    - Master - 2015 to 2016
+ Ecole des Ponts Paristech     - PhD    - 2018 to current
 
-# Experience
+## Experience
 
-## Civil engineer
+Civil engineer
 
-# Test
+# Publications
