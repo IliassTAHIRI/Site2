@@ -17,4 +17,4 @@ image: /img/blog/flavor_wheel.jpg
 
 Civil engineer
 
-# Publications
+# [Publications](https://www.websi.netlify.com)
