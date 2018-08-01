@@ -19,7 +19,7 @@ Many libraries are useful including:
 
 # Test
 
-<div class="input_area" markdown="1">
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -30,7 +30,6 @@ from ipywidgets.widgets import interact, Layout
 rc('font', **{'family': 'serif', 'serif': ['Computer Modern'], 'size': 16})
 rc('text', usetex=True)
 ```
-
 
 
 ```python
@@ -54,6 +53,10 @@ def plt_psi(L):
     plt.show()
 ```
 
+
 ```python
 interact(plt_psi, L=(1, Lmax, 0.1))
 ```
+
+
+![png](a_files/a_2_0.png)
