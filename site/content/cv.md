@@ -11,7 +11,7 @@ main:
   heading: Edu
   description: >
   Text
-  heading: experience
+  heading: Experience
   description: >
   textexte
 
@@ -23,6 +23,6 @@ testimonials:
     quote: >-
       Text
 
-full_image: /img/products/products-full-width.jpg
+~#full_image: /img/products/products-full-width.jpg
 
 ---
