@@ -11,9 +11,9 @@ Python is a very powerful and simple language. The power of python comes from hi
 
 Many libraries are useful including:
 
-- numpy
-- matplotlib
-- scipy
+1. numpy
+2. matplotlib
+3. scipy
 
 ## Example code
 
