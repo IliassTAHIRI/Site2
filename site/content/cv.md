@@ -11,22 +11,22 @@ main:
   heading: Education
   description: >
 
-    Ecole Mohammadia d'Ingénieurs - Master - 2011 to 2014\
-    Ecole des Ponts Paristech     - Master - 2015 to 2016\
-    Ecole des Ponts Paristech     - PhD    - 2018 to current\    
+    - Ecole Mohammadia d'Ingénieurs - Master - 2011 to 2014
+    - Ecole des Ponts Paristech     - Master - 2015 to 2016
+    - Ecole des Ponts Paristech     - PhD    - 2018 to current
 
   heading: Experience
-
-    DAH - Master - 2011 to 2014\
-    Ecole des Ponts Paristech     - Master - 2015 to 2016\
-    Ecole des Ponts Paristech     - PhD    - 2018 to current\
+  description:
+  items:
+    - DAH - Master - 2011 to 2014
+    - Ecole des Ponts Paristech     - Master - 2015 to 2016
+    - Ecole des Ponts Paristech     - PhD    - 2018 to current
 
 
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Imane GUETNI
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
+      Text
 
 #full_image: /img/products/products-full-width.jpg
 
