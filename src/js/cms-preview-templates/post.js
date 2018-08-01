@@ -5,7 +5,7 @@ export default class PostPreview extends React.Component {
   render() {
     const {entry, widgetFor} = this.props;
 
-    return <div className="mw6 center ph3 pv4">
+    return <div className="w-100 center ph3 pv4">
       <h1 className="f2 lh-title b mt0 mb3">{ entry.getIn(["data", "title"])}</h1>
       <div className="flex justify-between grey-3">
         <div style={{
@@ -15,7 +15,7 @@ export default class PostPreview extends React.Component {
         <p className="mt0">{ format(entry.getIn(["data", "date"]), "ddd, MMM D, YYYY") }</p>
         <p className="mt0">Read in x minutes</p>
       </div>
-      <div className="cms mw6">
+      <div className="cms w-100">
         { widgetFor("body") }
       </div>
     </div>;
