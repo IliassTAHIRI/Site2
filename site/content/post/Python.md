@@ -7,7 +7,7 @@ image: /img/blog/flavor_wheel.jpg
 
 Python is a very powerful and simple language. The power of python comes from his simplicity and elegence.
 
-## What di you need to know about it
+## What do you need to know about it
 
 Many libraries are useful including:
 
@@ -17,12 +17,7 @@ Many libraries are useful including:
 
 ## Example code
 
-
-#!/usr/bin/env python
-# coding: utf-8
-
-
-
+'''
 import matplotlib.pyplot as plt
 from matplotlib import rc
 import numpy as np
@@ -57,3 +52,4 @@ def plt_psi(L):
 
 
 interact(plt_psi, L=(1, Lmax, 0.1))
+'''
