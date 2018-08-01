@@ -31,8 +31,6 @@ rc('font', **{'family': 'serif', 'serif': ['Computer Modern'], 'size': 16})
 rc('text', usetex=True)
 ```
 
-
-```python
 Emax = 5
 xmin = -2
 Lmax = 5
@@ -43,7 +41,7 @@ def plt_psi(L):
     nmax = int(np.sqrt(Emax)*L)
     for n in range(1,nmax+1):
         plt.plot(x, psi(n,x,L)+(n/L)**2, c='r', lw=2, alpha=0.7)
-        plt.axhline((n/L)**2, 0, L, c='k')
+        plt.axhline((n/L)^2, 0, L, c='k')
     plt.ylim(0,6)
     plt.xlim(xmin,Lmax+1)
     plt.axvspan(L, Lmax+1, fc='gray')
@@ -51,10 +49,10 @@ def plt_psi(L):
     plt.xlabel(r'$x$')
     plt.ylabel(r'$E \;/(h^2/8m)$')
     plt.show()
-```
 
 
-```python
+
+
 interact(plt_psi, L=(1, Lmax, 0.1))
 ```
 
