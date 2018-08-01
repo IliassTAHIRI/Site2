@@ -29,7 +29,6 @@ from ipywidgets.widgets import interact, Layout
 
 rc('font', **{'family': 'serif', 'serif': ['Computer Modern'], 'size': 16})
 rc('text', usetex=True)
-```
 
 Emax = 5
 xmin = -2
@@ -55,6 +54,3 @@ def plt_psi(L):
 
 interact(plt_psi, L=(1, Lmax, 0.1))
 ```
-
-
-![png](a_files/a_2_0.png)
