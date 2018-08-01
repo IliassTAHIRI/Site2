@@ -8,8 +8,12 @@ description: >-
   My CV
 
 main:
-  heading: Great coffee with no compromises
+  heading: Edu
   description: >
+  Text
+  heading: experience
+  description: >
+  textexte
 
 
 
